@@ -7,7 +7,7 @@ def on_message(client, userdata, msg):
 
 def main():
     client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
-    client.on_message = on_message
+    client.on_message = on_message ##On message invoked whenever message received
 
     client.connect("localhost", 1883, 60)  # Change the address if the broker is on another machine
     subscribe_topic = input("Enter topic to subscribe: ")

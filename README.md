@@ -19,3 +19,10 @@ This repository contains Python scripts to set up an MQTT subscriber and publish
 
 Make sure the broker is listening on the default port 1883.
 
+### To Run Subscriber
+Execute the subscriber.py script to listen to messages published on the MQTT broker. The subscriber script prompts you to enter the topic you wish to subscribe to.
+
+
+### To Run Publisher
+Execute the publisher.py script to publish messages to the MQTT broker. The publisher script prompts you to enter the message you want to publish.
+
